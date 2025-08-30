@@ -19,7 +19,7 @@ export async function menu(bot, msg) {
 
 	const t = ` 
 ╭─────────────────╮
-      ༒ 𝕊𝕖𝕟𝕜𝕦 ༒
+      ༒ YO SOY YO ༒
 ╰─────────────────╯
 ╭─────────────────╮
 │ Hello,  ${msg.from.first_name} 
@@ -37,7 +37,7 @@ export async function menu(bot, msg) {
 │ ⬢ /disconnect 237xxxxx   
 ╰─────────────────╯        
 
- Powered By Senku Tech 🥷🏾
+ Powered By yo soy yo 
  `
 
 	await bot.sendPhoto(chatId, 'menu.jpg', {
